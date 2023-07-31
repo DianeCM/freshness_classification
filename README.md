@@ -57,7 +57,7 @@ En este caso solo se hace ajuste fino a las últimas tres capas convolucionales 
 - learning rate : 0.00001
 - En la primera fase del entrenamiento se realizan 10 epochs, dado que solo se tienen 1,048,833 parámetros entrenables. En la segunda fase se realizan 50 epochs.
 
-El optimizador utilizado es RMSprop.
+El optimizador utilizado es RMSprop y dado que es un problema de clasificación binaria se usa *binary cross-entropy* como funcion de perdida.
 
 
 # Análisis de resultados
