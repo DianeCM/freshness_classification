@@ -1,4 +1,4 @@
-Para la solución del problema se propone un modelo de red neuronal, resultante de aplicar fine-tuning a la red neuronal convolucional pre-entrenada en el dataset Imagenet, VGG16.
+Para la solución del problema se propone un modelo de red neuronal, resultante de aplicar fine-tuning a la red neuronal convolucional pre-entrenada en el dataset ImageNet, VGG16. Se realiza fine-tuning para la tarea de clasificación binaria de imágenes de frutas y vegetales en *fresco* o *deteriorado*.
 
 # Preparación del Dataset:
 
